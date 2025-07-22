@@ -18,7 +18,7 @@ CertGen — это простой Python-скрипт для генерации 
 
 1. Клонируйте репозиторий или скачайте файлы в папку:
    ```bash
-   git clone https://github.com/yourname/certgen.git
+   git clone https://github.com/andrei-s96s/certgen.git
    cd certgen
    ```
 2. Установите зависимости:
