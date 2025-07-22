@@ -1,0 +1,5 @@
+*.pfx
+*.key
+*.crt
+__pycache__/
+venv/ 

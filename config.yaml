@@ -1,0 +1,16 @@
+ca:
+  common_name: "My Root CA"
+  country: "RU"
+  organization: "MyOrg"
+  validity_days: 3650
+  pfx_password: "vpnpass"
+
+certs:
+  - common_name: "vpn.example.com"
+    san_dns: ["vpn.example.com", "vpn2.example.com"]
+    san_ip: ["192.168.1.10", "10.0.0.5"]
+    validity_days: 825
+  - common_name: "rdp.example.com"
+    san_dns: ["rdp.example.com"]
+    san_ip: []
+    validity_days: 825 
